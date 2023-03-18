@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+  width: 500px;
+  height: 1000px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: rgb(94,80,160);
+  background: linear-gradient(90deg, rgba(94,80,160,1) 0%, rgba(237,244,239,1) 35%, rgba(196,194,243,1) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.input{
+  font-size: small;
+  border: 1px solid #E7EAFB;
+  width: 90%;
+  height: 40px;
+}
+.infoBox{
+  width: 90%;
+  height: 200px;
+  background-color: #E7EAFB;
+  border: 1px solid #E7EAFB;
+  
+}
+.infoContainer{
+  width: 90%;
+  height: 100%;
+  margin-top: 4rem;
+  text-align: left;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+} 
+.myButton {
+	box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:17px;
+	padding:12px 39px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

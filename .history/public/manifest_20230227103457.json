@@ -1,0 +1,20 @@
+{
+  "name": "ask alex 2",
+  "version": "1.0",
+  "description": "Generate suggested prompts/questions using the OpenAI API",
+  "manifest_version": 3,
+
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Ask Alex"
+  },
+  "permissions":[
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ]
+  
+  
+}

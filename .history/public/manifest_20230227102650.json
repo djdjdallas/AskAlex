@@ -1,0 +1,23 @@
+{
+  "name": "OpenAI Prompt Generator",
+  "version": "1.0",
+  "description": "Generate suggested prompts/questions using the OpenAI API",
+  "manifest_version": 3,
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Ask Alex"
+  },
+  "permissions":[
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ]
+  
+  
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Ask Alex ",
+  "version": "1.0",
+  "description": "Generate suggested prompts/questions using the OpenAI API",
+  "manifest_version": 3,
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Ask Alex",
+    "default_icon": {
+      "16": "public/1t6.png",
+      "32": "public/4t8.png",
+      "48": "public/4t8.png",
+      "128": "public/128t.png"
+    }
+  },
+  "permissions":[
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ]
+  
+  
+}
